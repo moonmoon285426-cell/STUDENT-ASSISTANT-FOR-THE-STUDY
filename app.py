@@ -8,6 +8,7 @@ from google import genai
 from google.genai import types
 
 from rag_utils import build_index, retrieve
+MAX_PDF_SIZE = 10 * 1024 * 1024  # 10 MB
 
 
 st.set_page_config(page_title="Study Assistant", page_icon="📚")
